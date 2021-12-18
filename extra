@@ -1,0 +1,61 @@
+https://code.visualstudio.com/download > Install
+https://github.com/ > Create Account
+https://github.com/Aakashdeveloper > Follow
+https://git-scm.com/downloads > Install
+
+VsCode extensions
+> vscode-icons
+> tabnine
+> githistory
+> gitlens
+
+
+HTML > Raw Structure
+CSS > Design (Look & feel)
+Bootstrap > Responsive Design
+JavaScript > Dynamic
+Jquery > Ajax,Animations
+
+head> All the linking
+(weather css/js)
+(title/favicon)
+
+body>
+Content Visible to the user
+
+inline > Element start in the same line
+(span,a,img)
+
+block > Start from the new line
+(p,h1,div)
+
+seo=> search engine optimazation
+
+
+variables
+concat
+string literal 
+if else
+ternary 
+function
+DOM
+Calc 
+regex 
+Form Validation
+Event
+dark/light
+array
+JSON
+loop
+object
+Dynamic Html 
+Json-server
+promise
+Geolocation
+async await
+github 
+hoisting
+clouser
+Jquery
+> Animation
+> ajax
