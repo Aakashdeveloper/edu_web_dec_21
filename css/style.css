@@ -1,0 +1,32 @@
+h2{
+    color:black;
+    text-align: center;
+}
+#headerText{
+    color:rgb(0, 140, 255);
+    text-align:center;
+    font-size:35px;
+    font-weight:bold
+}
+#brown{
+    background-color: #8b5b5b
+}
+
+.card{
+    height:400px;
+    width:25%;
+    background-color: #4e8cc7;
+    float: left;
+    margin-left:7%;
+    color:white;
+    overflow: scroll; 
+}
+
+.cardImg{
+    height:200px;
+    width:100%
+}
+
+.gray{
+    background-color: #b9afa2
+}

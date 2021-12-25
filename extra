@@ -42,6 +42,42 @@ but avoid have section inside div
     <section></section>
 </div>
 
+//////Css////////
+inline
+styletag
+stylesheet
+
+inline>styletag>stylesheet
+h1
+
+inline{
+    color:red;
+    font-size:30px
+}
+
+styletag{
+    color:orange;
+    text-align:center
+}
+
+stylesheet{
+    text-align:right;
+    font-size:40px;
+    font-weight:bold
+}
+
+{
+   color:red;
+   font-size:30px;
+   text-align:center ;
+   font-weight:bold
+}
+///////Target Element/////
+> By Tag Name > All the tag will be targeted unless they have specific property
+> By Id (#)> to target something unique
+> By ClassName (.) >to target something common
+
+
 
 variables
 concat
