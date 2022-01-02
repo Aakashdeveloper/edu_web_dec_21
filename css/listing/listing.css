@@ -1,0 +1,47 @@
+body{
+    margin:auto;
+    background-color: #f4e7e1;
+}
+/*Header Css */
+#header{
+   height:60px; 
+   background-color:#d2a08c
+}
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+}
+#social{
+    float: right;
+}
+.simg{
+    height:50px;
+    width:50px
+}
+/*Content css*/
+.contentMain{
+ height:800px;
+ width:85%;
+ margin-left: 7%;
+ margin-top:5%
+}
+.filters{
+    height:600px;
+    width:25%;
+    border:2px solid red;
+    float: left;
+}
+.content{
+    height:800px;
+    width:71%;
+    margin-left: 3%;
+    border:2px solid blue;
+    float: left;
+}

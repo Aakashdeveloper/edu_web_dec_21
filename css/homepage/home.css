@@ -1,0 +1,167 @@
+body{
+    margin:auto;
+    background-color: #f4e7e1;
+}
+/*Header Css */
+#header{
+   height:60px; 
+   background-color:#d2a08c
+}
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+}
+#social{
+    float: right;
+}
+.simg{
+    height:50px;
+    width:50px
+}
+
+/*Search Css*/
+#search{
+   height:400px; 
+   width:100%;
+   background-image: url('images/foodWallpaper.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-size: 100% 450px;
+}
+#logo{
+    color:#13648c;
+    background-color:rgba(241, 228, 210, .8);
+    height:150px;
+    width:150px;
+    font-size:70px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left:45%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#logo > span {
+    margin-left:10%;
+    margin-top: 20%;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading{
+    font-size:45px;
+    color:#fff;
+    margin-left:30%;
+    margin-top: 14%;
+    position: absolute;
+
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left:27%;
+    margin-top: 20%;
+    position: absolute;
+
+}
+select{
+    height:60px;
+    width:35%;
+    font-size: 20px;
+}
+
+#restSelect{
+    width:50%;
+}
+
+/*QuickSearch Css*/
+#quickSearch{
+    width:100%;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+.quickHeading{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+}
+.quickSubHeading{
+    font-size:20px;
+    color:gray;
+    line-height:2;
+}
+.qHeading {
+    display:block;
+    margin-left:2%;
+}
+
+.tileContainer{
+    height:300px;
+    width:30%;
+    box-shadow: 10px 20px 10px gray;
+    float: left;
+    margin-left:2%;
+    margin-top:2%;
+    border-radius: 10%;
+}
+.tileComponent1 > img{
+    height:180px;
+    width:100%
+}
+.tileComponent2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tileComponent2 >h2 >a{
+    color:black !important;
+}
+
+/*Footer Css*/
+#footer{
+    height:30px; 
+    width:100%;
+    margin-top:2%;
+    text-align: center;
+    font-size: 30px;
+    padding:2%;
+    display: inline-block;
+    background-color:#d2a08c
+}
+
+
+
+/*
+#text{
+    height:20px; 
+    width:60px;
+    background-color: skyblue;
+    border:3px groove orangered;
+    margin-left:30%;
+    margin-top:5%;
+    padding:25px
+}
+#test1{
+    height:200px;
+    width:200px;
+    background-color:hotpink
+}
+#test2{
+    height:100px;
+    width:100px;
+    background-color:rgb(145, 105, 255);
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+  
+}
+*/

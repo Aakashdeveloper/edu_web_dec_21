@@ -77,6 +77,12 @@ stylesheet{
 > By Id (#)> to target something unique
 > By ClassName (.) >to target something common
 
+solid
+dotted
+groove
+double
+dashed
+
 
 
 variables
