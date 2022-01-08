@@ -34,14 +34,72 @@ a{
 }
 .filters{
     height:600px;
-    width:25%;
+    width:20%;
     border:2px solid red;
     float: left;
 }
 .content{
-    height:800px;
-    width:71%;
-    margin-left: 3%;
-    border:2px solid blue;
+    width:74%;
+    margin-left: 4%;
     float: left;
+    margin-top:-2%;
+}
+.card{
+    width:100%;
+    box-shadow: 10px 20px 10px gray;
+    margin-top:2%;
+    height:300px;
+    border:2px solid black;
+}
+.cardComponent1{
+    width:40%;
+    height:100%;
+    float: left;
+}
+
+.cardComponent1 > img {
+    width:100%;
+    height:265px;
+    padding:3%;
+    padding-top:5%;
+    border-radius:30%
+}
+
+.cardComponent2{
+    width:55%;
+    margin-left:4%;
+    height:100%;
+    float: left;
+}
+
+.pills{
+    background-color:skyblue;
+    border: 1px solid gray;
+    color:purple;
+    font-size: 20px;
+    padding:2%
+}
+
+.btn-proceed{
+    width:50%;
+    height:45px;
+    margin-top:8%;
+    font-size: 20px;
+    background:#b0385f;
+}
+
+.btn-proceed>a{
+    color:white !important
+}
+
+/*Footer Css*/
+#footer{
+    height:30px; 
+    width:100%;
+    margin-top:2%;
+    text-align: center;
+    font-size: 30px;
+    padding:2%;
+    display: inline-block;
+    background-color:#d2a08c
 }

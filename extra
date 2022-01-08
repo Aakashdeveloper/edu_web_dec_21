@@ -77,11 +77,16 @@ stylesheet{
 > By Id (#)> to target something unique
 > By ClassName (.) >to target something common
 
+
 solid
 dotted
 groove
 double
 dashed
+
+> display:inline-block> when content in each div is same
+> float:left> when content in each div is not same
+
 
 
 

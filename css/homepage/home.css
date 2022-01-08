@@ -46,6 +46,7 @@ a{
     margin-left:45%;
     margin-top: 2%;
     position: absolute;
+    animation:movelogo 20s infinite
 }
 
 #logo > span {
@@ -54,6 +55,20 @@ a{
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@keyframes movelogo{
+    0% {margin-left: 45%}
+    25% {margin-left: 48%}
+    50% {margin-left: 52%}
+    75% {margin-left: 48%}
+    100% {margin-left: 45%}
+}
+
+/*
+#logo:hover{
+    transition:margin-left 5s;
+    margin-left:50%
+}*/
 
 #heading{
     font-size:45px;
@@ -70,7 +85,6 @@ a{
     margin-left:27%;
     margin-top: 20%;
     position: absolute;
-
 }
 select{
     height:60px;
@@ -94,6 +108,12 @@ select{
     color:#13648c;
     font-weight: bold;
 }
+
+.quickHeading:hover{
+    color:#620433;
+
+}
+
 .quickSubHeading{
     font-size:20px;
     color:gray;
@@ -112,11 +132,33 @@ select{
     margin-left:2%;
     margin-top:2%;
     border-radius: 10%;
+    animation:danceContainer 20s infinite;
 }
+
 .tileComponent1 > img{
     height:180px;
     width:100%
 }
+
+.tileContainer:hover{
+    /*
+    transform: scale(1.1);
+    transform: rotate(-20deg)
+    transform: skewY(20deg)
+    10/5
+    */
+    transform: scale(1.1);
+}
+
+@keyframes danceContainer {
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    35% {transform: scale(1.1);color:red}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
 .tileComponent2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,10 +168,14 @@ select{
     color:black !important;
 }
 
+.cardText{
+    font-size:25px
+}
+
 /*Footer Css*/
 #footer{
-    height:30px; 
-    width:100%;
+    height:250px; 
+    width:96%;
     margin-top:2%;
     text-align: center;
     font-size: 30px;
@@ -138,7 +184,96 @@ select{
     background-color:#d2a08c
 }
 
+.footerSec{
+    float: left;
+    width:32%;
+    color:white;
+    border-right:2px solid black
+}
 
+ul > li{
+    list-style: none !important;
+}
+
+.lastSec{
+    border:none
+}
+
+@media screen and (max-width:1600px){
+    body {
+        background-color:rgb(241, 197, 204)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body {
+        background-color:rgb(197, 198, 241)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body {
+        background-color:rgb(197, 241, 241)
+    }
+    #heading{
+        margin-left: 24%;
+        margin-top: 21%;
+    }
+    .dropdown{
+        margin-left:27%;
+        margin-top: 30%;
+    }
+    .cardText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body {
+        background-color:rgb(238, 235, 191)
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+@media screen and (max-width:800px){
+    body {
+        background-color:rgb(238, 208, 191)
+    }
+    #heading{
+        margin-left: 10%;
+        margin-top: 31%;
+        font-size: 36px;
+    }
+    .dropdown{
+        margin-left: 9%;
+        margin-top: 42%;
+        width: 100%;
+    }
+    #logo{
+        margin-left: 36%;
+    }
+    .cardText {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:600px){
+    body {
+        background-color:rgb(191, 238, 218)
+    }
+    .tileContainer {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #heading {
+        margin-left: 4%;
+        margin-top: 41%;
+        font-size: 33px;
+    }
+    .dropdown {
+        margin-top: 53%;
+    }
+}
 
 /*
 #text{

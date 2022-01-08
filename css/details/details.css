@@ -1,0 +1,94 @@
+body{
+    margin:auto;
+    background-color: #f4e7e1;
+}
+/*Header Css */
+#header{
+   height:60px; 
+   background-color:#d2a08c
+}
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+}
+#social{
+    float: right;
+}
+.simg{
+    height:50px;
+    width:50px
+}
+/*Content css*/
+.content{
+    height:600px;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#imgDiv{
+    width:45%;
+    height:400px;
+    float: left;
+}
+
+#imgDiv > img{
+    width:100%;
+    height:100%;
+}
+
+#textDiv{
+    width:48%;
+    height:600px;
+    float: left;
+    margin-left: 4%;
+    margin-top: -2%;
+}
+
+.icon{
+    display: inline-block;
+    margin-left:2%
+}
+
+.stock{
+    font-size:30px;
+    color:green
+}
+
+.btn{
+    height:40px;
+    width:200px;
+    font-size:20px;
+    color:white
+}
+.btn-checkout{
+    background-color:#9c768d
+}
+.btn-atc{
+    background-color:teal
+}
+.fa-star{
+    font-size:20px
+}
+.checked{
+    color:green
+}
+/*Footer Css*/
+#footer{
+    height:30px; 
+    width:100%;
+    margin-top:2%;
+    text-align: center;
+    font-size: 30px;
+    padding:2%;
+    display: inline-block;
+    background-color:#d2a08c
+}
+
