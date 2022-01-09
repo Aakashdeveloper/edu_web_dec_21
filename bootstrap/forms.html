@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="first.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form action="#" method="GET">
+                        <div class="form-group">
+                            <label for="fname">FirstName*</label>
+                            <input class="form-control" id="fname" name="fname" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">LastName</label>
+                            <input class="form-control" id="lname" name="lname"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pwd">Password</label>
+                                    <input class="form-control" id="pwd" name="password" type="password"
+                                    minlength="8"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lang">Language</label>
+                            <select class="form-control" id="lang" name="lang">
+                                <option value="react">React</option>
+                                <option value="node">Node</option>
+                                <option value="mongo">Mongo</option>
+                            </select>
+                        </div>
+                        <label>Gender</label>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="female" name="gender"/>Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="male" name="gender"/>Male
+                            </label>
+                        </div>
+                        <label>Shift</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="dayShift" name="shift"/>Day Shift
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="nightShift" name="shift"/>Night Shift
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="bothShift" name="shift"/>Both Shift
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
