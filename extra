@@ -98,7 +98,7 @@ boostrap4
 
 col- < 576px
 sm > 576px
-md > 768px
+md > 768p
 lg > 992px
 xl > 1200px
 
@@ -114,18 +114,21 @@ xxl > 1400px
 12/6 = 2
 12/5 = 
 
+datatypes
 variables
+alert/prompt/confrim
 concat
 string literal 
 if else
 ternary 
+///////////////////
 function
 DOM
 Calc 
+dark/light
 regex 
 Form Validation
 Event
-dark/light
 array
 JSON
 loop
