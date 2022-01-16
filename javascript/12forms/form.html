@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="form.css" rel="stylesheet" type="text/css"/>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form action="http://localhost:6700/students" method="POST">
+                        <div class="form-group">
+                            <label for="uid">StudentId</label>
+                            <input class="form-control" id="uid" name="id" readonly/>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">FirstName*</label>
+                            <input class="form-control" id="fname" name="fname" onblur="validateFname()"/>
+                            <p id="fout"></p>
+                        </div>
+                       
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email"
+                                    oninput="validateEmail()"/>
+                                    <p id="eout"></p>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pwd">Password</label>
+                                    <input class="form-control" id="pwd" name="pwd" type="password"
+                                    oninput="validatePwd()"/>
+                                    <span class="glyphicon glyphicon-eye-open" onclick="showPassword()">
+                                        
+                                    </span>
+                                    <p id="pout"></p>
+                                    <div id="ppout"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpwd">Confirm Password</label>
+                            <input class="form-control" id="cpwd" name="cpwd" oninput="validatecPwd()"/>
+                            <p id="cpout"></p>
+                        </div>
+
+                        <span id="langOut"></span>
+                        <div class="form-group">
+                            <label for="lang">Language</label>
+                            <select class="form-control" id="lang" name="lang" onChange="getCity()">
+                                <option value="react">React</option>
+                                <option value="node">Node</option>
+                                <option value="mongo">Mongo</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            window.onload=getId()
+        </script>
+    </body>
+</html>

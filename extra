@@ -2,6 +2,7 @@ https://code.visualstudio.com/download > Install
 https://github.com/ > Create Account
 https://github.com/Aakashdeveloper > Follow
 https://git-scm.com/downloads > Install
+https://nodejs.org/en/ > install
 
 VsCode extensions
 > vscode-icons
@@ -121,7 +122,6 @@ concat
 string literal 
 if else
 ternary 
-///////////////////
 function
 DOM
 Calc 
@@ -129,12 +129,13 @@ dark/light
 regex 
 Form Validation
 Event
-array
-JSON
-loop
-object
-Dynamic Html 
 Json-server
+object
+JSON
+///////////////////
+array
+loop
+Dynamic Html 
 promise
 Geolocation
 async await
@@ -144,3 +145,8 @@ clouser
 Jquery
 > Animation
 > ajax
+
+/// dummy api 
+* nodejs must be install
+> open cmd and go inside the folder
+> npx json-server --watch data.json --port 6700
