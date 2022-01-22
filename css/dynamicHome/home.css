@@ -1,0 +1,302 @@
+body{
+    margin:auto;
+    background-color: #f4e7e1;
+}
+/*Header Css */
+#header{
+   height:60px; 
+   background-color:#d2a08c
+}
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+}
+#social{
+    float: right;
+}
+.simg{
+    height:50px;
+    width:50px
+}
+
+/*Search Css*/
+#search{
+   height:400px; 
+   width:100%;
+   background-image: url('images/foodWallpaper.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-size: 100% 450px;
+}
+#logo{
+    color:#13648c;
+    background-color:rgba(241, 228, 210, .8);
+    height:150px;
+    width:150px;
+    font-size:70px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left:45%;
+    margin-top: 2%;
+    position: absolute;
+    animation:movelogo 20s infinite
+}
+
+#logo > span {
+    margin-left:10%;
+    margin-top: 20%;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes movelogo{
+    0% {margin-left: 45%}
+    25% {margin-left: 48%}
+    50% {margin-left: 52%}
+    75% {margin-left: 48%}
+    100% {margin-left: 45%}
+}
+
+/*
+#logo:hover{
+    transition:margin-left 5s;
+    margin-left:50%
+}*/
+
+#heading{
+    font-size:45px;
+    color:#fff;
+    margin-left:30%;
+    margin-top: 14%;
+    position: absolute;
+
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left:27%;
+    margin-top: 20%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width:35%;
+    font-size: 20px;
+}
+
+#restSelect{
+    width:50%;
+}
+
+/*QuickSearch Css*/
+#quickSearch{
+    width:100%;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+.quickHeading{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+}
+
+.quickHeading:hover{
+    color:#620433;
+
+}
+
+.quickSubHeading{
+    font-size:20px;
+    color:gray;
+    line-height:2;
+}
+.qHeading {
+    display:block;
+    margin-left:2%;
+}
+
+.tileContainer{
+    height:300px;
+    width:30%;
+    box-shadow: 10px 20px 10px gray;
+    float: left;
+    margin-left:2%;
+    margin-top:2%;
+    border-radius: 10%;
+    animation:danceContainer 20s infinite;
+}
+
+.tileComponent1 > img{
+    height:180px;
+    width:100%
+}
+
+.tileContainer:hover{
+    /*
+    transform: scale(1.1);
+    transform: rotate(-20deg)
+    transform: skewY(20deg)
+    10/5
+    */
+    transform: scale(1.1);
+}
+
+@keyframes danceContainer {
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    35% {transform: scale(1.1);color:red}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tileComponent2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tileComponent2 >h2 >a{
+    color:black !important;
+}
+
+.cardText{
+    font-size:25px
+}
+
+/*Footer Css*/
+#footer{
+    height:250px; 
+    width:96%;
+    margin-top:2%;
+    text-align: center;
+    font-size: 30px;
+    padding:2%;
+    display: inline-block;
+    background-color:#d2a08c
+}
+
+.footerSec{
+    float: left;
+    width:32%;
+    color:white;
+    border-right:2px solid black
+}
+
+ul > li{
+    list-style: none !important;
+}
+
+.lastSec{
+    border:none
+}
+
+@media screen and (max-width:1600px){
+    body {
+        background-color:rgb(241, 197, 204)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body {
+        background-color:rgb(197, 198, 241)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body {
+        background-color:rgb(197, 241, 241)
+    }
+    #heading{
+        margin-left: 24%;
+        margin-top: 21%;
+    }
+    .dropdown{
+        margin-left:27%;
+        margin-top: 30%;
+    }
+    .cardText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body {
+        background-color:rgb(238, 235, 191)
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+@media screen and (max-width:800px){
+    body {
+        background-color:rgb(238, 208, 191)
+    }
+    #heading{
+        margin-left: 10%;
+        margin-top: 31%;
+        font-size: 36px;
+    }
+    .dropdown{
+        margin-left: 9%;
+        margin-top: 42%;
+        width: 100%;
+    }
+    #logo{
+        margin-left: 36%;
+    }
+    .cardText {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:600px){
+    body {
+        background-color:rgb(191, 238, 218)
+    }
+    .tileContainer {
+        width: 90%;
+        margin-top: 5%;
+    }
+    #heading {
+        margin-left: 4%;
+        margin-top: 41%;
+        font-size: 33px;
+    }
+    .dropdown {
+        margin-top: 53%;
+    }
+}
+
+/*
+#text{
+    height:20px; 
+    width:60px;
+    background-color: skyblue;
+    border:3px groove orangered;
+    margin-left:30%;
+    margin-top:5%;
+    padding:25px
+}
+#test1{
+    height:200px;
+    width:200px;
+    background-color:hotpink
+}
+#test2{
+    height:100px;
+    width:100px;
+    background-color:rgb(145, 105, 255);
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+  
+}
+*/

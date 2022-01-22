@@ -132,19 +132,18 @@ Event
 Json-server
 object
 JSON
-///////////////////
 array
 loop
-Dynamic Html 
-promise
-Geolocation
-async await
-github 
 hoisting
 clouser
+Dynamic Html 
+promise
+async await
+Geolocation
 Jquery
 > Animation
 > ajax
+github 
 
 /// dummy api 
 * nodejs must be install
